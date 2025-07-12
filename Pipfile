@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+qc-grader = {extras = ["jupyter", "qiskit"], editable = true, ref = "main", git = "https://github.com/qiskit-community/Quantum-Challenge-Grader.git"}
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
