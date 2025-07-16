@@ -5,9 +5,12 @@ name = "pypi"
 
 [packages]
 ipykernel = "*"
-qc-grader = {extras = ["jupyter", "qiskit"], editable = true, ref = "main", git = "https://github.com/qiskit-community/Quantum-Challenge-Grader.git"}
 matplotlib = "*"
 pylatexenc = "*"
+ffsim = "*"
+pyscf = "*"
+qiskit-addon-sqd = "*"
+qc-grader = {extras = ["jupyter", "qiskit"], editable = true, ref = "main", git = "https://github.com/qiskit-community/Quantum-Challenge-Grader.git"}
 
 [dev-packages]
 
